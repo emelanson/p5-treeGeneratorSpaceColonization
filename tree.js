@@ -2,7 +2,7 @@ function Tree() {
     this.leaves = [];
     this.branches = [];
 
-    for (var i = 0; i < 500; i++) {
+    for (var i = 0; i < 100; i++) {
         this.leaves.push(new Leaf());
     }
 
